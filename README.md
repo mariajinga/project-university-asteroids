@@ -11,12 +11,10 @@
 Developing a Game Similar to Asteroids (https://en.wikipedia.org/wiki/Asteroids_(video_game))
 Using either the <canvas> or <svg> control. In cases where the standard rules differ from the rules specified below, the version provided in the requirements must be implemented.
 
-Example: https://m1el.github.io/wasm-asteroids/demo/demo.html
-
 Realizarea unui joc similar cu Asteroids (https://en.wikipedia.org/wiki/Asteroids_(video_game)) utilizând controlul de tip <canvas> sau controlul de tip <svg>. În cazurile în care regulile standard diferă de
 regulile din cerințele de mai jos trebuie implementată varianta din cerințe.
 
-Exemplu: https://m1el.github.io/wasm-asteroids/demo/demo.html
+Example/Exemplu: https://m1el.github.io/wasm-asteroids/demo/demo.html
 
 ## Project Structure | Structura Proiectului
 - Implementation of Asteroids (represented as circles): Each asteroid will have an associated value randomly generated between 1-4, indicating the number of rockets required to destroy it. The number of required rockets will be constantly displayed within the drawing used for the asteroid. The color and size of the asteroid will change based on this number. Asteroids will move along linear trajectories with a randomly determined speed.
